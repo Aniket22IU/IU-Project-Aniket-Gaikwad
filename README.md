@@ -2,7 +2,7 @@
 
 # MetroMorph - A generative urban city planner
 
-# Abstract
+# Problem statement
 In each country the cities keep growing every year, it is becoming harder for the city planners to make the design of the city that is efficient. The traditional city planning takes a lot of time and efforts and money of the government. The planners have to study the population growth, terrain in the city and traffic management. The manual methods make it difficult to test different city layouts options for the best solution.
 To solve this, we need a AI based system that can create and improve city layouts using the real time data such as population and terrain in the city and traffic management. This system can do designing of the roads, green zones, and residential areas. All these can be done in a way that reduces traffic and population.
 To generate realistic city layouts we will use AI models like Graph Neural Networks(GNNs) and Diffusion models. By using this approach we can make the urban city planning process faster, more data driven and sustainable for future cities.
