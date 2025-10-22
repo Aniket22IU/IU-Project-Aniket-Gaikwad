@@ -19,7 +19,7 @@ To generate realistic city layouts we will use AI models like Graph Neural Netwo
 
 # Tech stack
 Frontend:
-1. React.js - for interactive web UI.
+1. React.js - for interactive web based UI.
 2. Leaflet - to visualise city layouts and maps.
 
 Backend:
