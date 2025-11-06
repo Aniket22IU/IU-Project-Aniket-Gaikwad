@@ -32,15 +32,26 @@ Database:
 AI/ML stack:
 1. Pytorch - for deep learning model development.
 2. Pytorch geometric - for building and training GNNs.
-3. Hugging Face Diffusers - for diffusion layout and image generation.
-4. Scikit-learn - for preprocessing scaling.
-5. NumPy and Pandas - for data handling and analysis.
+3. Scikit-learn - for preprocessing scaling.
+4. NumPy and Pandas - for data handling and analysis.
+5. Simplified GNN model
 
 Simulation Tools: 
 1. GeoPandas - to handle map based data.
 2. Shapely - for geometric operstions.
 3. Rasterio - for reading and writing terrain and population data.
 4. SUMO - for traffic simluation and flow analysis.
+
+# Project Risk
+GNN model prediction risk:
+1. Description - The Graph Neural Network (GNN) used in MetroMorph may produce inaccurate or misleading predictions about green zones and terrain lands due to outdated satellite images. If the training data does notshows updated urban changes or the graph structure between land areas is not properly defined, the model may show misleading information.
+
+2. Impact - Failed GNN predictions can result in misleading urban planning suggestions. An area that is now a residential complex might still be shown as green park, which leads to poor prediction of GNN model. This reduces user trust in the system which affects decision making of the city planning.
+
+3. Mitigation - Train the GNN again from yime to time using new and updated map data.
+                Keep track of which data and model version were used for results.
+                Ignore or flag the predictions which are having low confidence.
+                Let the admin review the predictions before final approval.
 
 # Phase status
 1. Conception phase - Done
