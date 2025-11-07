@@ -55,4 +55,5 @@ GNN model prediction risk:
 
 # Phase status
 1. Conception phase - Done
-2. Development phase - Under progress 
+2. Development phase - Done
+3. Finalisation phase - Under progress 
